@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/shop"
+        android:title="Home"
+        android:iconTint="@color/black"/>
+    <item
+        android:iconTint="@color/black"
+        android:enabled="true"
+        android:title="" />
+    <item
+        android:iconTint="@color/black"
+        android:id="@+id/action_favourite"
+        android:enabled="true"
+        android:icon="@drawable/favourite"
+        android:title="Favourite" />
+<!--   <item-->
+<!--        android:iconTint="@color/black"-->
+<!--        android:id="@+id/action_market"-->
+<!--        android:enabled="true"-->
+<!--        android:title="Order History" />-->
+</menu>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCffffff"
+    android:gravity="center"
+    android:layout_gravity="center">
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/idCartProductCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/padding_20dp"
+        android:layout_marginRight="@dimen/padding_20dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="15dp"
+        app:contentPadding="8dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/idPopupImageSuccessfulPopup"
+                android:layout_centerHorizontal="true"
+                android:layout_width="222dp"
+                android:layout_height="221dp"
+                android:src="@drawable/popimage"></ImageView>
+                <TextView
+                    android:layout_marginTop="@dimen/padding_10dp"
+                    android:id="@+id/idTextOrderSuccessSuccessfulPopup"
+                    android:fontFamily="@font/open_sans_regular"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/idPopupImageSuccessfulPopup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your Order has been Accepted"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/headingTitleColor"></TextView>
+            <TextView
+                android:layout_marginTop="@dimen/padding_10dp"
+                android:gravity="center"
+                android:id="@+id/idTextOrderSuccessDescSuccessfulPopup"
+                    android:fontFamily="@font/open_sans_regular"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/idTextOrderSuccessSuccessfulPopup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your items has been placed and is on
+it’s way to being processed
+it will delivered within 45 minutes."
+                ></TextView>
+            <Button
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/idTextOrderSuccessDescSuccessfulPopup"
+                android:fontFamily="@font/open_sans_regular"
+                android:id="@+id/btn_BackToHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:background="@null"
+                android:text="Back to home"
+                android:textColor="@color/headingTitleColor" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

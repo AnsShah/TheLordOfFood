@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/idSection1">
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/padding_10dp"
+        android:layout_marginRight="@dimen/padding_10dp"
+        android:id="@+id/linear_value_packs1"
+        android:layout_marginBottom="@dimen/padding_10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:letterSpacing="0.1"
+                android:lineSpacingMultiplier="0.8"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:id="@+id/idTextViewSection01"
+                android:layout_marginTop="1dp"
+                android:fontFamily="@font/open_sans_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Deals"
+                android:textColor="@color/headingTitleColor"
+                android:textSize="20dp"></TextView>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/idTextViewDescriptionSection01"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/open_sans_regular"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The role of a good cook ware in the preparation of a sumptuous meal cannot be over"></TextView>
+
+    </LinearLayout>
+</RelativeLayout>

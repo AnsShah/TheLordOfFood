@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/idRelSection19">
+    <LinearLayout
+        android:id="@+id/linear_value_packs19"
+        android:layout_margin="10dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:visibility="gone"
+                android:letterSpacing="0.1"
+                android:lineSpacingMultiplier="0.8"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:id="@+id/idTextViewSection019"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/open_sans_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Mid Night Deals"
+                android:textColor="@color/headingTitleColor"
+                android:textSize="20dp"></TextView>
+        </RelativeLayout>
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/idTextViewDescriptionSection019"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/open_sans_regular"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The role of a good cook ware in the preparation of a sumptuous meal cannot be over"></TextView>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:visibility="gone"
+        android:layout_below="@+id/linear_value_packs19"
+        android:id="@+id/idLOFSection019_Recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp" />
+</RelativeLayout>

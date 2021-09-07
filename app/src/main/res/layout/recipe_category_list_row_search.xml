@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/product_border_shape_card"
+    android:layout_margin="5dp"
+    app:ignore="NamespaceTypo"
+    android:id="@+id/idProductRelLayout">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/idRewardCardView"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardElevation="0dp"
+        card_view:cardUseCompatPadding="true">
+        <ImageView
+            android:id="@+id/idRecipeCategoryRowImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            card_view:srcCompat="@drawable/img_loading_icon" />
+    </androidx.cardview.widget.CardView>
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="150dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/idNextItemRelativeLayout"
+        android:backgroundTint="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fav_icon_background">
+        <ImageView
+            android:layout_centerInParent="true"
+            android:tint="@color/headingColor"
+            android:layout_margin="13dp"
+            android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:id="@+id/idNextItem"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="150dp"
+        android:id="@+id/idPreviousItemRelativeLayout"
+        android:backgroundTint="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fav_icon_background">
+        <ImageView
+            android:layout_centerInParent="true"
+            android:rotation="180"
+            android:tint="@color/headingColor"
+            android:layout_margin="13dp"
+            android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:id="@+id/idPreviousItem"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+    <LinearLayout
+        android:padding="5dp"
+        android:id="@+id/idCategoryListBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idRewardCardView"
+        android:layout_marginStart="@dimen/margin_10dp"
+        android:layout_marginLeft="@dimen/margin_10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/idRecipeCategoryRowTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crispy Fried Wings (6) Pcs"
+            android:fontFamily="@font/nunito_regular"
+            android:textColor="@color/headingTitleColor"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:maxLines="1"/>
+        <TextView
+            android:id="@+id/idRecipeCategoryRowCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:fontFamily="@font/nunito_regular"
+            android:textSize="16sp"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/idRewardCardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_alignParentRight="true"
+            android:id="@+id/idRecipeCategoryRowPrice"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:fontFamily="@font/open_sans_regular"
+            android:background="@drawable/price_arrow_layout"
+            android:layout_marginTop="10dp"
+            android:text=" Price  "
+            android:padding="@dimen/margin_10dp"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+        <RelativeLayout
+            android:layout_marginTop="6dp"
+            android:rotation="180"
+            android:layout_toLeftOf="@+id/idRecipeCategoryRowPrice"
+            android:layout_width="30dp"
+            android:layout_height="55dp"
+            android:background="@drawable/rectangle_arrow_layout"></RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/idCategoryListBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_10dp"
+        android:layout_marginLeft="@dimen/margin_10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:padding="3dp"
+                        android:background="@drawable/grey_item_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_location_on_24"
+                        app:tint="@color/backImageColor"></ImageView>
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/idRecipeCategoryLocation"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/open_sans_regular"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/headingTitleColor"
+                    android:text="Lahore"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:padding="3dp"
+                        android:background="@drawable/grey_item_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_access_time_24"
+                        app:tint="@color/backImageColor"></ImageView>
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/idRecipeCategoryOpenStatus"
+                    android:background="@drawable/round_corner_pakjinnah_green"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/open_sans_regular"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Open Now"
+                    android:textColor="@color/white"
+                    android:padding="5dp"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:padding="3dp"
+                        android:background="@drawable/grey_item_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_remove_red_eye_24"
+                        app:tint="@color/backImageColor"></ImageView>
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/idRecipeCategoryViews"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/open_sans_regular"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0 Views"
+                    android:textColor="@color/headingTitleColor"
+                    android:padding="5dp"></TextView>
+            </LinearLayout>
+            <!--            <LinearLayout-->
+            <!--                android:id="@+id/idAddToCartLayout"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="5dp"-->
+            <!--                android:layout_alignParentEnd="true"-->
+            <!--                android:background="@drawable/round_corner_pakjinnah_red"-->
+            <!--                android:orientation="horizontal"-->
+            <!--                android:layout_alignParentRight="true">-->
+
+            <!--                <ImageView-->
+            <!--                    android:id="@+id/idLoginLogo"-->
+            <!--                    android:layout_width="35dp"-->
+            <!--                    android:paddingTop="7dp"-->
+            <!--                    android:paddingBottom="7dp"-->
+            <!--                    android:layout_gravity="center"-->
+            <!--                    android:layout_height="35dp"-->
+            <!--                    android:scaleType="centerInside"-->
+            <!--                    android:src="@drawable/cart"-->
+            <!--                    card_view:tint="@color/white" />-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/idOutOfStockLabel"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:text="Add To Cart"-->
+            <!--                    android:paddingTop="7dp"-->
+            <!--                    android:paddingBottom="7dp"-->
+            <!--                    android:gravity="center"-->
+            <!--                    android:fontFamily="@font/nunito_bold"-->
+            <!--                    android:layout_gravity="center"-->
+            <!--                    android:layout_marginRight="8dp"-->
+            <!--                    android:textColor="@color/white"-->
+            <!--                    android:layout_marginEnd="8dp" />-->
+            <!--            </LinearLayout>-->
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_10dp"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginRight="@dimen/margin_10dp">
+            <LinearLayout
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/idAddToCartLayout"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/round_corner_pakjinnah_red"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp">
+                <ImageView
+                    android:id="@+id/idLoginLogo"
+                    android:layout_width="35dp"
+                    android:paddingTop="7dp"
+                    android:paddingBottom="7dp"
+                    android:layout_gravity="center"
+                    android:layout_height="35dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/cart"
+                    card_view:tint="@color/white" />
+                <TextView
+                    android:id="@+id/idOutOfStockLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add To Cart"
+                    android:paddingTop="7dp"
+                    android:paddingBottom="7dp"
+                    android:gravity="center"
+                    android:fontFamily="@font/nunito_bold"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:textColor="@color/white"
+                    android:layout_marginEnd="8dp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

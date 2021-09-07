@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F7B32B</color>
+    <color name="colorPrimaryDark">#F7B32B</color>
+    <color name="colorAccent">#F7B32B</color>
+
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="yellowDarkColor">#F7B32B</color>
+    <color name="redColor">#FF2536</color>
+    <color name="grayColor">#8F8F8F</color>
+    <color name="headingColor">#333333</color>
+    <color name="grey_40">#999999</color>
+    <color name="product_name_color">#3C6C3E</color>
+    <color name="bottom_nav_color">#1A1B1A</color>
+    <color name="orange">#F44F1C</color>
+    <color name="price_tag_color">#10d403</color>
+    <color name="colorLightGray">#B2BABB</color>
+    <color name="colorShadowGray">#EEEEEE</color>
+    <color name="grey">#c1c1c1</color>
+    <color name="colorGreen">#206510</color>
+    <color name="light_grey_invoice">#E1E0E0</color>
+
+    <color name="lord_of_food_color">#dfae25</color>
+
+    <!--Header Title Color-->
+    <color name="headingTitleColor">#ffffff</color>
+
+    <!--Back Image Color-->
+    <color name="backImageColor">#FFFFFF</color>
+    <color name="logo_color_sp">#FFFFFF</color>
+    <!--Layout Background Color-->
+    <color name="backgroundLayoutColor">#020202</color>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Settings.SettingsActivity">
+
+    <ImageView
+        android:id="@+id/idOrderHeaderBackBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="13dp"
+        android:src="@drawable/back"
+        android:tint="@color/backImageColor"/>
+    <LinearLayout
+        android:id="@+id/idMarketPlaceHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/open_sans_regular"
+            android:text="Settings"
+            android:gravity="center"
+            android:textColor="@color/headingTitleColor"
+            android:textSize="27sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/idMarketPlaceHeader"
+        android:id="@+id/line2"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+    </LinearLayout>
+   <LinearLayout
+       android:layout_margin="@dimen/padding_10dp"
+       android:layout_below="@+id/line2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+       <TextView
+           android:id="@+id/title2"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginStart="10dp"
+           android:text="Theme"
+           android:textStyle="bold"
+           android:textColor="?colorAccent"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+
+       <RadioGroup
+           android:id="@+id/radiogroup"
+           android:layout_marginTop="5dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <com.google.android.material.radiobutton.MaterialRadioButton
+               android:id="@+id/light"
+               android:text="Light"
+               app:useMaterialThemeColors="true"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" />
+
+           <com.google.android.material.radiobutton.MaterialRadioButton
+               android:id="@+id/dark"
+               android:text="Dark"
+               app:useMaterialThemeColors="true"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" />
+
+           <com.google.android.material.radiobutton.MaterialRadioButton
+               android:id="@+id/auto"
+               android:text="Default"
+               android:layout_width="match_parent"
+               app:useMaterialThemeColors="true"
+               android:layout_height="wrap_content" />
+
+       </RadioGroup>
+   </LinearLayout>
+
+</RelativeLayout>

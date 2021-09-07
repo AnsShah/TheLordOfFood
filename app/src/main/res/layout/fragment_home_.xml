@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".View.Home.Fragment.Home_Fragment">
+    <RelativeLayout
+       android:visibility="gone"
+        android:background="#60807A7A"
+        android:id="@+id/idProgressBarRelative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+        <ProgressBar
+            android:id="@+id/simpleProgressBar"
+            android:layout_centerInParent="true"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            tools:ignore="MissingConstraints"></ProgressBar>
+        <ImageView
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_margin="15dp"
+            android:id="@+id/profile_image"
+            android:tint="@color/logo_color_sp"
+            android:src="@drawable/logo1"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <!--   android:visibility="gone"-->
+    <androidx.core.widget.NestedScrollView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:id="@+id/main"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ProgressBar
+                android:visibility="gone"
+                android:layout_below="@+id/slider_layout"
+                android:indeterminateTint="@color/yellowDarkColor"
+                android:indeterminateTintMode="src_in"
+                android:id="@+id/idProgressBar"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:id="@+id/slider_layout">
+                <com.smarteist.autoimageslider.SliderView
+                    android:layout_margin="2dp"
+                    android:id="@+id/imageSlider"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:sliderAnimationDuration="500"
+                    app:sliderAutoCycleDirection="back_and_forth"
+                    app:sliderAutoCycleEnabled="true"
+                    app:sliderCircularHandlerEnabled="true"
+                    app:sliderIndicatorAnimationDuration="500"
+                    app:sliderIndicatorGravity="center_horizontal|bottom"
+                    app:sliderIndicatorMargin="10dp"
+                    app:sliderIndicatorOrientation="horizontal"
+                    app:sliderIndicatorPadding="3dp"
+                    app:sliderIndicatorRadius="2dp"
+                    app:sliderIndicatorSelectedColor="#5A5A5A"
+                    app:sliderIndicatorUnselectedColor="#000000"
+                    app:sliderScrollTimeInSec="1"
+                    app:sliderStartAutoCycle="true" />
+            </LinearLayout>
+<!--            <LinearLayout-->
+<!--                android:id="@+id/line2"-->
+<!--                android:layout_marginTop="1dp"-->
+<!--                android:layout_marginBottom="1dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:orientation="horizontal">-->
+<!--                <View-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="2dp"-->
+<!--                    android:background="#c0c0c0"/>-->
+<!--                <View-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="2dp"-->
+<!--                    android:background="#c0c0c0"/>-->
+<!--            </LinearLayout>-->
+            <LinearLayout
+                android:layout_below="@+id/slider_layout"
+                android:id="@+id/line3"
+                android:layout_marginBottom="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#c0c0c0"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#c0c0c0"/>
+            </LinearLayout>
+            <include
+                android:layout_marginTop="5dp"
+                android:id="@+id/idSpecialChickenHandiLayout"
+                layout="@layout/special_chicken_handi_item_layout"
+                android:layout_below="@id/line3"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/idProduct_Grid_SpecialHandi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idSpecialChickenHandiLayout"
+                android:layout_marginTop="10dp"
+                android:foregroundGravity="center_horizontal"
+                />
+            <include
+                android:id="@+id/idSpecialChickenKarahiLayout"
+                layout="@layout/special_chicken_krahi_layout"
+                android:layout_below="@id/idProduct_Grid_SpecialHandi"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content" />
+            <include
+                android:id="@+id/idLofSpecialMuttonKabab"
+                layout="@layout/lof_special_mutton_kabab_layout"
+                android:layout_below="@id/idSpecialChickenKarahiLayout"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <include
+                android:id="@+id/idSpecialChickenBurger"
+                layout="@layout/special_chicken_burger_layout"
+                android:layout_below="@id/idLofSpecialMuttonKabab"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <include
+                android:id="@+id/idSpicyProducts"
+                layout="@layout/latest_spicy_products_layout"
+                android:layout_below="@id/idSpecialChickenBurger"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <include
+                android:id="@+id/idLOFSpecialPizza"
+                layout="@layout/lof_special_pizza_layout"
+                android:layout_below="@id/idSpicyProducts"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <include
+                android:id="@+id/idLOFMidNight"
+                layout="@layout/lof_midnight_deals_layout"
+                android:layout_below="@id/idLOFSpecialPizza"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <include
+                android:id="@+id/idLOFSection08"
+                layout="@layout/lof_sections8_layout"
+                android:layout_below="@id/idLOFMidNight"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <include
+                android:id="@+id/idLOFSection09"
+                layout="@layout/lof_sections9_layout"
+                android:layout_below="@id/idLOFSection08"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <include
+                android:id="@+id/idLOFSection010"
+                layout="@layout/lof_sections10_layout"
+                android:layout_below="@id/idLOFSection09"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <include
+                android:id="@+id/idLOFSection011"
+                layout="@layout/lof_section11_layout"
+                android:layout_below="@id/idLOFSection010"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <include
+                android:id="@+id/idLOFSection012"
+                layout="@layout/lof_sections12_layout"
+                android:layout_below="@id/idLOFSection011"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <include
+                android:id="@+id/idLOFSection013"
+                layout="@layout/lof_sections13_layout"
+                android:layout_below="@id/idLOFSection012"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <include
+                android:id="@+id/idLOFSection014"
+                layout="@layout/lof_sections14_layout"
+                android:layout_below="@id/idLOFSection013"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <include
+                android:id="@+id/idLOFSection015"
+                layout="@layout/lof_sections15_layout"
+                android:layout_below="@id/idLOFSection014"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <include
+                android:id="@+id/idLOFSection016"
+                layout="@layout/lof_sections16_layout"
+                android:layout_below="@id/idLOFSection015"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <include
+                android:id="@+id/idLOFSection017"
+                layout="@layout/lof_sections17_layout"
+                android:layout_below="@id/idLOFSection016"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <include
+                android:id="@+id/idLOFSection018"
+                layout="@layout/lof_sections18_layout"
+                android:layout_below="@id/idLOFSection017"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <include
+                android:id="@+id/idLOFSection019"
+                layout="@layout/lof_sections19_layout"
+                android:layout_below="@id/idLOFSection018"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <include
+                android:id="@+id/idLOFSection020"
+                layout="@layout/lof_sections20_layout"
+                android:layout_below="@id/idLOFSection019"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <include
+                android:id="@+id/idLOFSection021"
+                layout="@layout/lof_sections21_layout"
+                android:layout_below="@id/idLOFSection020"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <include
+                android:id="@+id/idLOFSection022"
+                layout="@layout/lof_sections22_layout"
+                android:layout_below="@id/idLOFSection021"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <include
+                android:id="@+id/idLOFSection023"
+                layout="@layout/lof_sections23_layout"
+                android:layout_below="@id/idLOFSection022"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <include
+                android:id="@+id/idLOFSection024"
+                layout="@layout/lof_sections24_layout"
+                android:layout_below="@id/idLOFSection023"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <include
+                android:id="@+id/idLOFSection025"
+                layout="@layout/lof_sections25_layout"
+                android:layout_below="@id/idLOFSection024"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <include
+                android:visibility="gone"
+                layout="@layout/lordoffood_footer_layout"
+                android:layout_alignParentBottom="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

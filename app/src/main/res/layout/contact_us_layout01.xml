@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:background="@color/black"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="12dp"
+    app:contentPadding="4dp">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:fontFamily="@font/open_sans_regular"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact"
+            android:textColor="@color/headingTitleColor"></TextView>
+        <TextView
+            android:fontFamily="@font/open_sans_regular"
+            android:textColor="@color/headingTitleColor"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_us"></TextView>
+        <LinearLayout
+            android:id="@+id/idContactUsLinearLayout"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_phone_24"
+                app:tint="@color/colorPrimaryDark"></ImageView>
+            <TextView
+                android:id="@+id/idTextContactLinearLayout1"
+                android:fontFamily="@font/open_sans_regular"
+                android:textColor="@color/headingTitleColor"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" +923094888111"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/idEmailLinearLayout"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_email_24"
+                app:tint="@color/colorPrimaryDark"></ImageView>
+            <TextView
+                android:id="@+id/idTextEmailTextView"
+                android:textColor="@color/headingTitleColor"
+                android:fontFamily="@font/open_sans_regular"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mail@lordoffood.com"></TextView>
+        </LinearLayout>
+        <include layout="@layout/email_message_layout"></include>
+        <!-- <include layout="@layout/details_shares_through_card_layout01"></include>
+         <RelativeLayout
+             android:layout_marginTop="5dp"
+             android:layout_gravity="center"
+             android:layout_above="@+id/TextAboutUsLayout"
+             android:id="@+id/rel_web1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:background="@drawable/background_002">
+             &lt;!&ndash; android:background="@drawable/background_002"
+              android:background="@drawable/background_line_02"&ndash;&gt;
+             <Button
+                 android:id="@+id/login"
+                 android:layout_width="330dp"
+                 android:layout_height="wrap_content"
+                 android:text="Check out Web"
+                 android:textColor="#39b54a"
+                 android:layout_centerHorizontal="true"
+                 android:background="@drawable/background_line_02"
+                 android:layout_margin="4dp"/>
+         </RelativeLayout>-->
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Home.HomeActivity"
+    android:id="@+id/activity_main">
+    <include layout="@layout/bottom_nav_layout"></include>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/lordoffood_drawer_header"
+        app:itemTextColor="@color/grayColor"
+        app:itemIconTint="@color/grayColor"
+        android:id="@+id/nav_view"
+        android:layout_gravity="start"
+        app:itemTextAppearance="@style/NewFontStyle"
+        android:fitsSystemWindows="true"
+        tools:ignore="MissingConstraints">
+        <!--android:layout_gravity="start"-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <ExpandableListView
+            app:itemTextAppearance="@style/NewFontStyle"
+            android:id="@+id/expandableListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="0dp"
+            android:layout_marginTop="120dp"
+            android:groupIndicator="@null"
+            android:layout_marginBottom="20dp">
+        </ExpandableListView>
+        <RelativeLayout
+            android:layout_marginBottom="@dimen/padding_10dp"
+            android:layout_below="@+id/expandableListView"
+            android:layout_marginTop="@dimen/padding_10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/idPoweredByHome"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="@dimen/padding_20dp"
+            android:fontFamily="@font/open_sans_regular"
+            android:textColor="@color/headingTitleColor"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:text="Powered By"></TextView>
+            <ImageView
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@+id/idPoweredByHome"
+                android:layout_above="@+id/idAppVersionHome"
+                android:layout_width="95dp"
+                android:layout_height="28dp"
+                android:src="@drawable/checking"></ImageView>
+            <TextView
+                android:layout_alignParentBottom="true"
+                android:layout_above="@+id/idPoweredByHome"
+                android:id="@+id/idAppVersionHome"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/open_sans_regular"
+                android:textColor="@color/headingTitleColor"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="App Version 3.0.2"></TextView>
+        </RelativeLayout>
+        </RelativeLayout>
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

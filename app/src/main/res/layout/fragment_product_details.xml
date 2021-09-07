@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Cart.Fragment.ProductDetailsFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/main"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <include layout="@layout/product_card_layout"></include>
+                <include layout="@layout/overview_card_layout"></include>
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/idRelatedProductLinearLayout"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:textColor="@color/headingTitleColor"
+                        android:fontFamily="@font/open_sans_bold"
+                        android:textSize="@dimen/padding_20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Products You May also Want!"></TextView>
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/idRecyclerViewRelatedProducts"></androidx.recyclerview.widget.RecyclerView>
+                </LinearLayout>
+                <include layout="@layout/contact_timing_card_layout"></include>
+                <include layout="@layout/details_shares_through_card_layout"></include>
+                <include
+                    android:visibility="gone"
+                    layout="@layout/lordoffood_footer_layout"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignParentBottom="true"
+                    ></include>
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

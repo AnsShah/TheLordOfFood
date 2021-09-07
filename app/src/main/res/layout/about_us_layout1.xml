@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="12dp"
+    app:contentPadding="4dp">
+    <ScrollView
+        android:layout_below="@id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--<TextView
+            android:fontFamily="@font/open_sans_regular"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textColor="@color/white"></TextView>-->
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textColor="@color/headingTitleColor"
+                android:fontFamily="@font/open_sans_regular"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_us"></TextView>
+            <TextView
+                android:layout_marginTop="15dp"
+                android:textColor="@color/headingTitleColor"
+                android:fontFamily="@font/open_sans_regular"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_us1"></TextView>
+            <RelativeLayout
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center"
+                android:layout_above="@+id/TextAboutUsLayout"
+                android:id="@+id/rel_web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/background_002">
+                <!-- android:background="@drawable/background_002"
+                 android:background="@drawable/background_line_02"-->
+                <Button
+                    android:fontFamily="@font/open_sans_regular"
+                    android:id="@+id/login"
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:text="Check out Web"
+                    android:textColor="@color/headingTitleColor"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/background_line_02"
+                    android:layout_margin="4dp"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</androidx.cardview.widget.CardView>

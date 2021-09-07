@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Lord Of Food</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="about_us">Lord of food is a name of flavour and ambiance. We have the best chefs and recipes of town on our page. We strive hard to deliver satisfactory quality food with good price. We aim to have a chain of restaurants in near future to establish a solid name in food industry. We are motivated to earn a strong reputation as a pioneer among restaurants.</string>
+    <string name="about_us1">LOF offers a perfect gathering place for friends and families where you will enjoy wonderful appetizers, house specialties, Continental, Italian, Chinese, Traditional Charcoal BBQ, Desserts and Fast Food dishes.
+
+TFine cuisine, modern ambiance and impeccable service, coupled with our motto: “Taste above the Class”, will keep you coming back time and time again. So come visit Lord of Food and their enthusiastic, well-trained team and take part in the memorable experiences they have to offer.</string>
+
+    <string name="contact_us">17, Block-C, OPF Housing Society Khayaban-E-Jinnah, Lahore.</string>
+    <string name="founder_text1">Goraya is the business tycoon and the harbinger of new trend setting concepts in business industry . Goraya\'s investment philosophy contributed to the world in a bargain-buying strategy for the generation of investors. He said, “If you’re making a good investment you will secure your future.” He is a great role model for investors of the next generation.
+He believes that The essence of good taste is a sense of values, and a sense of values is the pivotal point of good living.</string>
+
+    <string name="founder_text2">It is a long established fact that a reader will be distracted by the readable of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using \'Content here, content here\', making it look like readable English.</string>
+
+    <string name="founder_text3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered by injected humour</string>
+
+    <!--new-->
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+
+    <!--Location-->
+    <string name="title_activity_maps">Map</string>
+    <string name="permission_denied">Permission denied</string>
+    <!--Location-->
+    <string name="permission_denied_location">Permission is required to obtain location</string>
+    <string name="device_not_supported">This device is not supported</string>
+    <string name="cannot_get_location">getting your location</string>
+    <string name="you">You</string>
+    <string name="warning">Warning!</string>
+    <!--gps Status-->
+    <string name="gps_txt">GPS Location Service is disabled.Kindly enable to proceed.</string>
+    <string name="Nope">No</string>
+    <string name="yup">Enable GPS</string>
+    <string name="cancel">CANCEL</string>
+    <string name="ok">OK</string>
+    <string name="exit_form">Are you sure you want to exit the form?</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="reviews"><u>Review\'s Video</u></string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
+
+
+
+
+
+
+
+
+

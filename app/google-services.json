@@ -1,0 +1,736 @@
+{
+  "project_info": {
+    "project_number": "1075485475708",
+    "firebase_url": "https://lord-of-food-77951-default-rtdb.firebaseio.com",
+    "project_id": "lord-of-food-77951",
+    "storage_bucket": "lord-of-food-77951.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075485475708:android:dc917f5cde07d7b3139af9",
+        "android_client_info": {
+          "package_name": "com.applicationdevelopers.albarakahbites"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuQhKmHz1z9hlYgoFQym6wvA_26ETJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075485475708:android:3713bd3b6f45a260139af9",
+        "android_client_info": {
+          "package_name": "com.applicationdevelopers.anokhakitchen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuQhKmHz1z9hlYgoFQym6wvA_26ETJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075485475708:android:9ac8956414648b40139af9",
+        "android_client_info": {
+          "package_name": "com.applicationdevelopers.bawarchifoods"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuQhKmHz1z9hlYgoFQym6wvA_26ETJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075485475708:android:1841b649c03d811a139af9",
+        "android_client_info": {
+          "package_name": "com.applicationdevelopers.bobbun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuQhKmHz1z9hlYgoFQym6wvA_26ETJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075485475708:android:a407f3f015d4a19c139af9",
+        "android_client_info": {
+          "package_name": "com.applicationdevelopers.burgermaison"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuQhKmHz1z9hlYgoFQym6wvA_26ETJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075485475708:android:1bef7f8b8e51d40a139af9",
+        "android_client_info": {
+          "package_name": "com.applicationdevelopers.cafeninezero"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuQhKmHz1z9hlYgoFQym6wvA_26ETJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075485475708:android:031388e2bf237757139af9",
+        "android_client_info": {
+          "package_name": "com.applicationdevelopers.cheesyfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuQhKmHz1z9hlYgoFQym6wvA_26ETJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075485475708:android:177e47a9108732c7139af9",
+        "android_client_info": {
+          "package_name": "com.applicationdevelopers.daddybuns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuQhKmHz1z9hlYgoFQym6wvA_26ETJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075485475708:android:a12b70e1e953dd85139af9",
+        "android_client_info": {
+          "package_name": "com.applicationdevelopers.foodsfresh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuQhKmHz1z9hlYgoFQym6wvA_26ETJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075485475708:android:57d56dbc45393e35139af9",
+        "android_client_info": {
+          "package_name": "com.applicationdevelopers.goingplaces"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuQhKmHz1z9hlYgoFQym6wvA_26ETJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075485475708:android:8630c662e8dbf8b1139af9",
+        "android_client_info": {
+          "package_name": "com.applicationdevelopers.hungerskitchen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuQhKmHz1z9hlYgoFQym6wvA_26ETJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075485475708:android:ed5bb0450a78e03a139af9",
+        "android_client_info": {
+          "package_name": "com.applicationdevelopers.lordoffood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuQhKmHz1z9hlYgoFQym6wvA_26ETJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075485475708:android:33f6e962fbd8f421139af9",
+        "android_client_info": {
+          "package_name": "com.applicationdevelopers.nfkitchen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuQhKmHz1z9hlYgoFQym6wvA_26ETJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075485475708:android:be5cd9ccb4b320ab139af9",
+        "android_client_info": {
+          "package_name": "com.applicationdevelopers.pattybuns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuQhKmHz1z9hlYgoFQym6wvA_26ETJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075485475708:android:8647412687941cd2139af9",
+        "android_client_info": {
+          "package_name": "com.applicationdevelopers.pizzaiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuQhKmHz1z9hlYgoFQym6wvA_26ETJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075485475708:android:ca01c02ff56b481e139af9",
+        "android_client_info": {
+          "package_name": "com.applicationdevelopers.pizzamake"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuQhKmHz1z9hlYgoFQym6wvA_26ETJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075485475708:android:10064a3bd433a454139af9",
+        "android_client_info": {
+          "package_name": "com.applicationdevelopers.pizzeria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuQhKmHz1z9hlYgoFQym6wvA_26ETJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075485475708:android:41e918022dd65f6d139af9",
+        "android_client_info": {
+          "package_name": "com.applicationdevelopers.planetpluspizza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuQhKmHz1z9hlYgoFQym6wvA_26ETJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075485475708:android:123641fb2d6cdbb5139af9",
+        "android_client_info": {
+          "package_name": "com.applicationdevelopers.sbarropizza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuQhKmHz1z9hlYgoFQym6wvA_26ETJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075485475708:android:03da73e4612c0be2139af9",
+        "android_client_info": {
+          "package_name": "com.applicationdevelopers.tastebuds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuQhKmHz1z9hlYgoFQym6wvA_26ETJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075485475708:android:8b8bc0564596d6dc139af9",
+        "android_client_info": {
+          "package_name": "com.applicationdevelopers.tasterrestaurantapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuQhKmHz1z9hlYgoFQym6wvA_26ETJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075485475708:android:b4cd9a3a0ed3c62a139af9",
+        "android_client_info": {
+          "package_name": "com.applicationdevelopers.thaalbiryanifastfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuQhKmHz1z9hlYgoFQym6wvA_26ETJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075485475708:android:e91102e9ca1bb74d139af9",
+        "android_client_info": {
+          "package_name": "com.applicationdevelopers.thehouseofpizza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuQhKmHz1z9hlYgoFQym6wvA_26ETJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075485475708:android:6f1254088e8b7c53139af9",
+        "android_client_info": {
+          "package_name": "com.applicationdevelopers.toronto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuQhKmHz1z9hlYgoFQym6wvA_26ETJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075485475708:android:dbf5193bb5558d0b139af9",
+        "android_client_info": {
+          "package_name": "com.applicationdevelopers.zaiqagharka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuQhKmHz1z9hlYgoFQym6wvA_26ETJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075485475708-dvims2on5f4vrg8sgdnk0ofsek5tradk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
